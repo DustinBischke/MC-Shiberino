@@ -1,0 +1,11 @@
+# Ignore all MCP Files
+/mcp/
+
+# Ignore Minecraft Files
+/net/**
+
+# Except these Files
+!/net/minecraft/client/Minecraft.class
+!/net/minecraft/client/multiplayer/PlayerControllerMP.class
+
+Start.*
