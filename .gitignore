@@ -6,6 +6,7 @@
 
 # Except these Files
 !/net/minecraft/client/Minecraft.class
+!/net/minecraft/client/entity/EntityPlayerSP.class
 !/net/minecraft/client/multiplayer/PlayerControllerMP.class
 
 Start.*
