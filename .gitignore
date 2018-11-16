@@ -8,5 +8,6 @@
 !/net/minecraft/client/Minecraft.class
 !/net/minecraft/client/entity/EntityPlayerSP.class
 !/net/minecraft/client/multiplayer/PlayerControllerMP.class
+!/net/minecraft/client/settings/KeyBinding.class
 
 Start.*
