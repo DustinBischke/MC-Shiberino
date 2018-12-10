@@ -1,14 +1,33 @@
-# Ignore all MCP Files
+# Ignore MCP Files
 /mcp/
+Start.class
 
 # Ignore Minecraft Files
-/net/**
+!/net/
+/net/*
+!/net/minecraft/
+/net/minecraft/*
 
-# Except these Files
+!/net/minecraft/block
+/net/minecraft/block/*
 !/net/minecraft/block/Block.class
+
+!/net/minecraft/client/
+/net/minecraft/client/*
 !/net/minecraft/client/Minecraft.class
+
+!/net/minecraft/client/entity/
+/net/minecraft/client/entity/*
 !/net/minecraft/client/entity/EntityPlayerSP.class
+
+!/net/minecraft/client/multiplayer/
+/net/minecraft/client/multiplayer/*
 !/net/minecraft/client/multiplayer/PlayerControllerMP.class
+
+!/net/minecraft/client/settings/
+/net/minecraft/client/settings/*
 !/net/minecraft/client/settings/KeyBinding.class
 
-Start.*
+!/net/minecraft/entity/
+/net/minecraft/entity/*
+!/net/minecraft/entity/Entity.class
